@@ -1,0 +1,8 @@
+SUB
+D5T4:DR <- M[AR],
+D5T5:AC <- DR, DR <- AC
+D5T6:AC <- AC - DR
+
+INC 
+D7T3B5:AC<- DR+ 1
+
